@@ -1,9 +1,12 @@
 import React from 'react'
+import NewestContent from '../components/NewestContent'
+import GalleryContent from '../components/GalleryContent'
 
 function Home() {
   return (
     <>
-      <h2>THIS IS HOME</h2>
+      <NewestContent/>
+      <GalleryContent/>
     </>
   )
 }

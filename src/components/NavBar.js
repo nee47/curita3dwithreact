@@ -10,7 +10,7 @@ function NavBar() {
               <Link to='/Home' className='link-item'>Inicio</Link>
               <Link to='/About' className='link-item'>Acerca de Nosotros</Link>
               <Link to='/Gallery' className='link-item'>Galeria</Link>
-            </div>
+            </div> 
         </nav>
     </>
   )
