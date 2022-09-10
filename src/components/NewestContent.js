@@ -1,5 +1,6 @@
 import React from 'react'
 import './NewestContent.css'
+import './Gallery.css'
 import GalleryItem from './GalleryItem'
 
 function NewestContent() {

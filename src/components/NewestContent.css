@@ -1,7 +1,6 @@
 .newest-content{
     display: flex;
     margin: auto;
-    width: 70%;
     flex-direction: column;
 }
 
@@ -13,17 +12,4 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-.gallery-item{
-    list-style: none;
-    display: flex;
-}
-
-.gallery-item img{
-    height: 350px;
-    width: 450px;
-    border-radius: 5px;
-    margin: 10px;
-    object-fit: cover;
 }
