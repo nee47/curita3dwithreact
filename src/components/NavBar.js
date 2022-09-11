@@ -10,7 +10,16 @@ function NavBar() {
               <Link to='/Home' className='link-item'>Inicio</Link>
               <Link to='/About' className='link-item'>Acerca de Nosotros</Link>
               <Link to='/Gallery' className='link-item'>Galeria</Link>
-            </div> 
+            </div>
+            <button className='ham' type='button' onClick={()=>{
+              const nav = document.querySelector('.navbar-container');
+              nav.classList.toggle('nav-container__activado');
+              console.log(nav);
+            }}>
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
         </nav>
     </>
   )
