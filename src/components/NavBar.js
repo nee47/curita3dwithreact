@@ -2,20 +2,22 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './NavBar.css'
 
+function toggleNavBar(){
+  const nav = document.querySelector('.navbar-container');
+  nav.classList.toggle('nav-container__activado');
+}
+
+
 function NavBar() {
   return (
     <>
         <nav className='navbar'>
             <div className='navbar-container'>
-              <Link to='/Home' className='link-item'>Inicio</Link>
-              <Link to='/About' className='link-item'>Acerca de Nosotros</Link>
-              <Link to='/Gallery' className='link-item'>Galeria</Link>
+              <Link to='/Home' onClick={toggleNavBar} className='link-item'>Inicio</Link>
+              <Link to='/About' onClick={toggleNavBar} className='link-item'>Acerca de Nosotros</Link>
+              <Link to='/Gallery' onClick={toggleNavBar} className='link-item'>Galeria</Link>
             </div>
-            <button className='ham' type='button' onClick={()=>{
-              const nav = document.querySelector('.navbar-container');
-              nav.classList.toggle('nav-container__activado');
-              console.log(nav);
-            }}>
+            <button className='ham' type='button' onClick={toggleNavBar}>
               <span></span>
               <span></span>
               <span></span>
@@ -24,5 +26,7 @@ function NavBar() {
     </>
   )
 }
+
+
 
 export default NavBar

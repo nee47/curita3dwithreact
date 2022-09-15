@@ -10,3 +10,17 @@
     margin: 0 10px;
     object-fit: cover;
 }
+.gallery{
+    margin-top: 90px;
+
+}
+
+.gallery h3{
+    text-align: center;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
