@@ -1,3 +1,10 @@
+.products{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    gap: 20px;
+    justify-content: center;
+}
+
 .gallery-item{
     list-style: none;
     display: flex;
@@ -12,8 +19,8 @@
 }
 
 .gallery-item img{
-    height: 350px;
-    width: 450px;
+    height: 250px;
+    width: 350px;
     border-radius: 1px;
     object-fit: cover;
     cursor: pointer;
@@ -25,16 +32,12 @@
 }
 
 .gallery{
-    margin-top: 90px;;
+    display: flex;
+    flex-direction: column;
+    background: #967E76;
 }
 
 .gallery h3{
     text-align: center;
 }
 
-.products{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-}

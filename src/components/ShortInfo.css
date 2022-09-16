@@ -1,0 +1,17 @@
+.shortinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ade09d10-de9f-4b72-bfa8-9d5a3e98291b/dfd5sie-342d33ca-a365-4577-a213-ed4a37b710b0.jpg/v1/fill/w_1024,h_463,q_75,strp/the_pirate_hideout_by_allenlimcy_dfd5sie-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDYzIiwicGF0aCI6IlwvZlwvYWRlMDlkMTAtZGU5Zi00YjcyLWJmYTgtOWQ1YTNlOTgyOTFiXC9kZmQ1c2llLTM0MmQzM2NhLWEzNjUtNDU3Ny1hMjEzLWVkNGEzN2I3MTBiMC5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.wml6AV9mO2IB_Ch0Umcj0Sv6UVWl_MUZ8sjHdf-oY1U);
+    background-size: contain;
+    height: 650px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.shortinfo > div{
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+}

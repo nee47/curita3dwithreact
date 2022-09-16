@@ -2,6 +2,8 @@
     display: flex;
     margin: auto;
     flex-direction: column;
+    background: #B7C4CF;
+    padding-bottom: 30px;
 }
 
 .newest-content h2{
