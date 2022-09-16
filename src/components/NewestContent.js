@@ -12,6 +12,7 @@ function NewestContent() {
           <GalleryItem
             src='imgs/gallery/homero.png'
             alt='homero simpson'
+            name='Soporte para esponja Homero'
           />
 
           <GalleryItem

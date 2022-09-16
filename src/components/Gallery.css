@@ -1,18 +1,31 @@
 .gallery-item{
     list-style: none;
     display: flex;
+    flex-direction: column;
+    background-color: #FFFDE3;
+}
+
+.gallery-item:hover{
+    box-shadow: 0px 6px 7px 4px rgba(0,0,0,0.65);
+    -webkit-box-shadow: 0px 6px 7px 4px rgba(0,0,0,0.65);
+    -moz-box-shadow: 0px 6px 7px 4px rgba(0,0,0,0.65);
 }
 
 .gallery-item img{
     height: 350px;
     width: 450px;
-    border-radius: 5px;
-    margin: 0 10px;
+    border-radius: 1px;
     object-fit: cover;
+    cursor: pointer;
 }
-.gallery{
-    margin-top: 90px;
 
+.gallery-item p{
+    text-align: center;
+    font-size: 25px;
+}
+
+.gallery{
+    margin-top: 90px;;
 }
 
 .gallery h3{
@@ -23,4 +36,5 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 10px;
 }
