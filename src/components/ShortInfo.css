@@ -3,15 +3,26 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ade09d10-de9f-4b72-bfa8-9d5a3e98291b/dfd5sie-342d33ca-a365-4577-a213-ed4a37b710b0.jpg/v1/fill/w_1024,h_463,q_75,strp/the_pirate_hideout_by_allenlimcy_dfd5sie-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDYzIiwicGF0aCI6IlwvZlwvYWRlMDlkMTAtZGU5Zi00YjcyLWJmYTgtOWQ1YTNlOTgyOTFiXC9kZmQ1c2llLTM0MmQzM2NhLWEzNjUtNDU3Ny1hMjEzLWVkNGEzN2I3MTBiMC5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.wml6AV9mO2IB_Ch0Umcj0Sv6UVWl_MUZ8sjHdf-oY1U);
-    background-size: contain;
-    height: 650px;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ca47a81c-0114-4ccd-ad4e-7d63d8b3c98f/dfa8xzs-042d75b4-a750-4a8f-b391-bc1c622aeb58.jpg/v1/fill/w_1920,h_877,q_75,strp/dark_entity_by_asmodios_dfa8xzs-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODc3IiwicGF0aCI6IlwvZlwvY2E0N2E4MWMtMDExNC00Y2NkLWFkNGUtN2Q2M2Q4YjNjOThmXC9kZmE4eHpzLTA0MmQ3NWI0LWE3NTAtNGE4Zi1iMzkxLWJjMWM2MjJhZWI1OC5qcGciLCJ3aWR0aCI6Ijw9MTkyMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.qrAJvpcHxTvu38CKdDpRRHJrWBVeKLwpG-E-WITBwuE);
+    background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    padding: 120px 0;
 }
 
 .shortinfo > div{
     color: white;
-    font-size: 70px;
+    font-size: 85px;
     font-weight: bolder;
+}
+
+.shortinfo > div > span{
+    color: #0096FF;
+}
+
+@media screen and (max-width: 800px){
+    .shortinfo{
+    
+    }
+
 }

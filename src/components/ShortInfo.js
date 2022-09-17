@@ -5,7 +5,7 @@ function ShortInfo() {
   return (
     <>
       <div className='shortinfo'>
-        <div>CURITA 3D</div>
+        <div><span>CURITA </span>3D</div>
         <div>Impresiones 3D</div>
       </div>
     </>
