@@ -4,7 +4,9 @@ import './NavBar.css'
 
 function toggleNavBar(){
   const nav = document.querySelector('.navbar-container');
-  nav.classList.toggle('nav-container__activado');
+  if(window.innerWidth <= 800){
+    nav.classList.toggle('nav-container__activado');
+  }
 }
 
 

@@ -18,6 +18,7 @@ function NewestContent() {
           <GalleryItem
             src='imgs/gallery/amongus2.png'
             alt='amongus among us'
+            name='Pica de among us'
           />
         </ul>
       </section>

@@ -9,7 +9,6 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    background-color: #FFFDE3;
 }
 
 .gallery-item:hover{
