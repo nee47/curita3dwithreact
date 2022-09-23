@@ -5,7 +5,6 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Gallery from './pages/Gallery';
 
-
 function App() {
   return (
     <>
@@ -19,7 +18,6 @@ function App() {
         </Routes>
         
       </Router>
-      
     </>
   );
 }
