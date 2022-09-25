@@ -1,5 +1,5 @@
 import React from 'react'
-import './NewestContent.css'
+import './BasicStyles.css'
 import './Gallery.css'
 import GalleryItem from './GalleryItem'
 

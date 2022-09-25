@@ -1,5 +1,5 @@
 import React from 'react'
-import  './ShortInfo.css'
+import  './BasicStyles.css'
 
 function ShortInfo() {
   return (

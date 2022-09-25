@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './NavBar.css'
+import './BasicStyles.css'
 
 function toggleNavBar(){
   const nav = document.querySelector('.navbar-container');
@@ -8,7 +8,6 @@ function toggleNavBar(){
     nav.classList.toggle('nav-container__activado');
   }
 }
-
 
 function NavBar() {
   return (
