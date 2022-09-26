@@ -75,7 +75,8 @@
     display: flex;
     margin: auto;
     flex-direction: column;
-    background: #0096FF;
+    background: rgb(167,204,199);
+    background: linear-gradient(180deg, rgba(167,204,199,0.577468487394958) 0%, rgba(86,119,129,0.7147233893557423) 100%);
     padding-bottom: 30px;
 }
 
@@ -139,13 +140,41 @@
 
 /*ACERCA DE NOSOTROS*/
 .aboutus-container{
-    background-color: orange;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
 }
 
 .aboutus-container p{
     font-size: 25px;
 }
 
+.aboutus__text-container{
+    flex-basis: 500px;
+    flex-grow: 1;
+    flex-shrink: 2;
+    margin: 0 35px;
+}
+
+.aboutus__text-container p{
+    text-align: justify;
+}
+
+.aboutus__text-container h2{
+    text-align: center;
+    font-size: 35px;
+}
+
+.aboutus__img-container{
+    flex-basis: 500px;
+    min-width: 700px;
+    flex-grow: 3;
+}
+.aboutus__img-container img{
+    width: 100%;
+    border-radius: 2px;
+}
 
 @media screen and (max-width: 800px){
     .ham{
