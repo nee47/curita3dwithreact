@@ -16,7 +16,7 @@ function NavBar() {
             <div className='navbar-container'>
               <Link to='/Home' onClick={toggleNavBar} className='link-item'>Inicio</Link>
               <Link to='/About' onClick={toggleNavBar} className='link-item'>Acerca de Nosotros</Link>
-              <Link to='/Gallery' onClick={toggleNavBar} className='link-item'>Galeria</Link>
+              <Link to='/productos' onClick={toggleNavBar} className='link-item'>Productos</Link>
             </div>
             <button className='ham' type='button' onClick={toggleNavBar}>
               <span></span>

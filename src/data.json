@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "HOMERO",
+        "price": 350,
+        "src": "/imgs/gallery/homero.png"
+    },
+    {
+        "id": 2,
+        "name": "Llavero de among us",
+        "price": 120,
+        "src": "/imgs/gallery/amongitas1.png"
+    },
+    {
+        "id": 3,
+        "name": "AMONG",
+        "price": 12
+    },
+    {
+        "id": 4,
+        "name": "BATMAN",
+        "price": 100
+    },
+    {
+        "id": 5,
+        "name": "DDASD",
+        "price": 111
+    }
+]

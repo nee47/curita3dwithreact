@@ -171,9 +171,20 @@
     min-width: 700px;
     flex-grow: 3;
 }
+
 .aboutus__img-container img{
     width: 100%;
     border-radius: 2px;
+}
+
+.tags{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.tags li{
+    list-style: none;
+    font-size: 18px;
 }
 
 @media screen and (max-width: 800px){
