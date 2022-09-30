@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "HOMERO",
+        "name": "Porta esponja Homero",
         "price": 350,
         "src": "/imgs/gallery/homero.png"
     },
@@ -13,17 +13,26 @@
     },
     {
         "id": 3,
-        "name": "AMONG",
-        "price": 12
+        "name": "Pica de among us",
+        "price": 12,
+        "src": "/imgs/gallery/amongus1.png"
     },
     {
         "id": 4,
-        "name": "BATMAN",
-        "price": 100
+        "name": "Soporte Celular Batman",
+        "price": 100,
+        "src": "/imgs/gallery/batman.png"
     },
     {
         "id": 5,
-        "name": "DDASD",
-        "price": 111
+        "name": "LLaverito minion",
+        "price": 111,
+        "src": "/imgs/gallery/minion2.png"
+    },
+    {
+        "id": 6,
+        "name": "Porta lapices pata de gato",
+        "price": 111,
+        "src": "/imgs/gallery/patagato6.png"
     }
 ]
