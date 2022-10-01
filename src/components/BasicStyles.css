@@ -160,7 +160,7 @@ a{
 }
 
 .aboutus__text-container p{
-    text-align: justify;
+    text-align: justify; 
 }
 
 .aboutus__text-container h2{
@@ -184,9 +184,53 @@ a{
     justify-content: flex-start;
     gap: 10px;
 }
+
 .tags li{
     list-style: none;
     font-size: 18px;
+}
+
+.main-detail{
+    width: 80%;
+    margin: auto;
+    background: #E4e4e4;
+}
+
+.top-duo{
+    display: flex;
+    padding: 35px;
+}
+
+.top-duo__media{
+    flex-grow: 2;
+    font-size: 30px;
+    width: 100%;
+}
+
+.top-duo__media img{
+    width: 100%;
+    object-fit: contain;
+}
+.top-duo__name{
+    flex-grow: 1;
+    flex-shrink: 2;
+    width: 100%;
+    font-size: 30px;
+}
+.top-duo__name>div{
+    text-align: center;
+}
+.top-duo__name>div:first-child{
+    font-weight: bold;
+}
+
+.top-duo__name__item-name{
+    
+}
+
+.description{
+    white-space: pre-wrap;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 800px){

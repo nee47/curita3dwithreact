@@ -3,7 +3,8 @@
         "id": 1,
         "name": "Porta esponja Homero",
         "price": 350,
-        "src": "/imgs/gallery/homero.png"
+        "src": "/imgs/gallery/homero.png",
+        "description": "Porta esponja de Homero Simpson 9.5 cm de alto"
     },
     {
         "id": 2,
