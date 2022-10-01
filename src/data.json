@@ -4,36 +4,41 @@
         "name": "Porta esponja Homero",
         "price": 350,
         "src": "/imgs/gallery/homero.png",
-        "description": "Porta esponja de Homero Simpson 9.5 cm de alto"
+        "description": "Porta esponja de Homero Simpson \n 9.5 cm de alto \n Material PLA"
     },
     {
         "id": 2,
         "name": "Llavero de among us",
         "price": 120,
-        "src": "/imgs/gallery/amongitas1.png"
+        "src": "/imgs/gallery/amongitas1.png",
+        "description": "Porta esponja de Homero Simpson \n 9.5 cm de alto \n Material PLA"
     },
     {
         "id": 3,
         "name": "Pica de among us",
         "price": 12,
-        "src": "/imgs/gallery/amongus1.png"
+        "src": "/imgs/gallery/amongus1.png",
+        "description": "Porta esponja de Homero Simpson \n 9.5 cm de alto \n Material PLA"
     },
     {
         "id": 4,
         "name": "Soporte Celular Batman",
         "price": 100,
-        "src": "/imgs/gallery/batman.png"
+        "src": "/imgs/gallery/batman.png",
+        "description": "Porta esponja de Homero Simpson \n 9.5 cm de alto \n Material PLA"
     },
     {
         "id": 5,
         "name": "LLaverito minion",
         "price": 111,
-        "src": "/imgs/gallery/minion2.png"
+        "src": "/imgs/gallery/minion2.png",
+        "description": "Porta esponja de Homero Simpson \n 9.5 cm de alto \n Material PLA"
     },
     {
         "id": 6,
         "name": "Porta lapices pata de gato",
         "price": 111,
-        "src": "/imgs/gallery/patagato6.png"
+        "src": "/imgs/gallery/patagato6.png",
+        "description": "Porta esponja de Homero Simpson \n 9.5 cm de alto \n Material PLA"
     }
 ]
